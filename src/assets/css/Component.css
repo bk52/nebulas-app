@@ -1,0 +1,299 @@
+@import './Colors.css';
+
+:root{
+    --transparent-bg: rgba(255,255,255,0.3);
+    --transparent-fg:rgba(255,255,255,0.8);
+}
+
+.ui.left.icon.login{
+    width: 100%;
+}
+
+.ui.left.icon.login input {
+    background: var(--transparent-bg);
+    color: var(--transparent-fg);
+}
+
+.ui.left.icon.login i {
+    color: var(--transparent-fg);
+}
+
+.ui.message.custom{
+    background-color: rgba(155,34,38,0.3);
+    color: white;
+}
+
+.custom-content{
+    width: auto;
+    max-width: 400px;
+    /* width: calc(100% - 40px); */
+}
+
+.custom-content.center{
+    position: relative;
+    margin: auto;
+}
+
+.custom-content.nopad > .row > .column{
+    padding: 0px;
+}
+
+.custom-search .input{
+    width: 100%;
+}
+
+.custom-rd label{
+    color: #ffffff !important;
+}
+
+.custom-search input{
+    background-color: rgba(255, 255,255, 0) !important;
+    border-color: rgba(255,255,255,0.4) !important;
+    color: rgba(255,255,255,0.4) !important;
+}
+
+.btn-sign-in.ui.button{
+    width: 100%;
+    background: var(--color-purple-dark);
+    color: white;
+}
+
+.login-bottom{
+    position: absolute;
+    bottom: 8px; 
+    left: 50%; 
+    font-size:14px;
+    font-weight: bold; 
+    font-family: 'Roboto'; 
+    transform: translate(-50%, -50%) 
+}
+
+.login-bottom img{
+    width: 40px; 
+    height: 40px; 
+    vertical-align: middle 
+}
+
+.ui.active.visible.dimmer{
+    background-color: rgba(0,0,0,.95);
+}
+
+.dimmer-bottom{
+    position: absolute; 
+    bottom: 0px; 
+    /* width: 400px;  */
+    width: calc(100% - 10px);
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+
+.vertically-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 20px);
+    max-width: 400px;
+}
+
+.custom-text{
+    color:var(--color-text-color) !important;
+}
+
+.app-header{
+    width: 100%;
+    height: 50px;
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: var(--color-black-bg);
+}
+
+.app-header .column.center{
+    padding: 0px !important;
+}
+
+.app-header .row{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.app-header .icon{
+    color: #C4C4C4;
+    cursor: pointer;
+}
+
+.app-header .icon.active{
+    color: var(--color-gamboge);
+}
+
+.app-header .avatar{
+    height: 40px;
+    width: 40px;
+    border-radius:20px
+}
+
+.app-header .name{
+   color: var(--color-text-color);
+   font-weight: bold;
+}
+
+.app-navbar{
+    height: 70px;
+    position: absolute; 
+}
+
+.app-navbar.bottom{
+    bottom: 0px;
+}
+
+.app-navbar.top{
+    top: 0px;
+}
+
+.app-navbar .row{
+    background-color: var(--color-black-bg);
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.app-navbar .row .column{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.custom-icon-button{
+    width: 100%;
+    height: 100%;
+    color: var(--color-text-color);
+    cursor: pointer;
+}
+
+.custom-icon-button .ic{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.galaxy-list{
+    overflow-y: scroll;
+    height: calc(100% - 50px);
+    padding-bottom: 10px;
+}
+
+.galaxy-card{
+    text-align: initial;
+    width:400px !important;
+    margin: 0 auto !important;
+    background-color: rgba(0,18,25,0.5) !important;
+    box-shadow: none !important;
+}
+
+.galaxy-card:not(:first-child){
+    margin-top: 32px !important;
+}
+
+.settings-grid{
+   background-color: rgba(0,18,25,0.5) !important;
+   padding:0px;
+}
+
+.settings-grid .segment{
+    margin: 0px;
+ }
+
+
+.custom-icon-button .text{
+    height: calc(100% - 45px);
+}
+
+.custom-dropdown{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: #C4C4C4 !important;
+    color: #ffffff !important;
+}
+
+.custom-switch.ui.toggle.checkbox label:before
+{
+    background:rgba(255, 255, 255, 0.25) !important;
+}
+
+.main-content{
+    height: calc(100% - 120px);
+}
+
+.ql-toolbar.ql-snow{
+    background-color:#ffffff !important;
+}
+
+.ql-container.ql-snow{
+    border:none !important;
+}
+
+.ql-editor{
+    color:#ffffff !important;
+}
+
+.detail-content{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: calc(100% - 70px);
+    /* overflow-y: scroll; */
+}
+
+.ui.selection.dropdown.search{
+    background-color: var(--transparent-bg) !important;
+    color: var(--transparent-fg);
+    width: 100%;
+}
+
+#galaxyGraphView {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#galaxyGraphView canvas {
+    top: 0;
+    left: 0;
+}
+
+#customToast{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform:translateX(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    z-index: 3000;
+}
+
+#toastContent{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    #customToast{
+        width: 90%;
+    }
+    .custom-content{
+        width: 90%;
+    }
+    .dimmer-bottom{
+        width: 90%;
+    }
+    .galaxy-card{
+        width:90% !important;
+    }
+}
