@@ -6,7 +6,7 @@ Nebulas is an open source, crowdfunding, multi-user collaboration application. U
 
 ![Features](https://user-images.githubusercontent.com/24523985/158029681-1ad056c6-b7d5-4dac-a9d0-4e37ad724128.PNG)
 
-### 👉  [Learn more and try it!](https://nebulas-app.com) ###
+### 👉  [Learn more and try it!](https://nebulas-app.netlify.app/) ###
 ### 📐  [Design files on the Figma](https://www.figma.com/community/file/1084558634202203395/NEBULAS) ###
 
 ## 🛠 Installation ##
